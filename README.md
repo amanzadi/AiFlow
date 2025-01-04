@@ -1,4 +1,4 @@
-# Quivr - Your Second Brain, Empowered by Generative AI
+# AiFlow - Your Second Brain, Empowered by Generative AI
 
 <div align="center">
     <img src="./logo.png" alt="Quivr-logo" width="31%"  style="border-radius: 50%; padding-bottom: 20px"/>
@@ -13,17 +13,17 @@ Quivr, helps you build your second brain, utilizes the power of GenerativeAI to 
 ## Key Features 🎯
 
 - **Opiniated RAG**: We created a RAG that is opinionated, fast and efficient so you can focus on your product
-- **LLMs**: Quivr works with any LLM, you can use it with OpenAI, Anthropic, Mistral, Gemma, etc.
-- **Any File**: Quivr works with any file, you can use it with PDF, TXT, Markdown, etc and even add your own parsers.
-- **Customize your RAG**: Quivr allows you to customize your RAG, add internet search, add tools, etc.
-- **Integrations with Megaparse**: Quivr works with [Megaparse](https://github.com/quivrhq/megaparse), so you can ingest your files with Megaparse and use the RAG with Quivr.
+- **LLMs**:AiFlow works with any LLM, you can use it with OpenAI, Anthropic, Mistral, Gemma, etc.
+- **Any File**:AiFlow works with any file, you can use it with PDF, TXT, Markdown, etc and even add your own parsers.
+- **Customize your RAG**:AiFlow allows you to customize your RAG, add internet search, add tools, etc.
+- **Integrations with Megaparse**:AiFlow works with [Megaparse](https://github.com/quivrhq/megaparse), so you can ingest your files with Megaparse and use the RAG withAiFlow.
 
->We take care of the RAG so you can focus on your product. Simply install quivr-core and add it to your project. You can now ingest your files and ask questions.*
+>We take care of the RAG so you can focus on your product. Simply installAiFlow-core and add it to your project. You can now ingest your files and ask questions.*
 
 **We will be improving the RAG and adding more features, stay tuned!**
 
 
-This is the core of Quivr, the brain of Quivr.com.
+This is the core ofAiFlow, the brain ofAiFlow.com.
 
 <!-- ## Demo Highlight 🎥
 
@@ -47,7 +47,7 @@ Ensure you have the following installed:
   
 
   ```bash
-  pip install quivr-core # Check that the installation worked
+  pip installAiFlow-core # Check that the installation worked
   ```
 
 
@@ -56,7 +56,7 @@ Ensure you have the following installed:
   ```python
   import tempfile
 
-  from quivr_core import Brain
+  fromAiFlow_core import Brain
 
   if __name__ == "__main__":
       with tempfile.NamedTemporaryFile(mode="w", suffix=".txt") as temp_file:
@@ -140,7 +140,7 @@ llm_config:
 
 3. Create a Brain with the default configuration
 ```python
-from quivr_core import Brain
+fromAiFlow_core import Brain
 
 brain = Brain.from_files(name = "my smart brain",
                         file_paths = ["./my_first_doc.pdf", "./my_second_doc.txt"],
@@ -155,7 +155,7 @@ brain.print_info()
 from rich.console import Console
 from rich.panel import Panel
 from rich.prompt import Prompt
-from quivr_core.config import RetrievalConfig
+fromAiFlow_core.config import RetrievalConfig
 
 config_file_name = "./basic_rag_workflow.yaml"
 
@@ -186,7 +186,7 @@ brain.print_info()
 
 ## Go further
 
-You can go further with Quivr by adding internet search, adding tools, etc. Check the [documentation](https://core.quivr.com/) for more information.
+You can go further withAiFlow by adding internet search, adding tools, etc. Check the [documentation](https://core.quivr.com/) for more information.
 
 
 ## Contributors ✨
