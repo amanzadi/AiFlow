@@ -8,13 +8,13 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/quivrhq/quivr?style=social)](https://github.com/quivrhq/quivr)
 [![Twitter Follow](https://img.shields.io/twitter/follow/StanGirard?style=social)](https://twitter.com/_StanGirard)
 
-Quivr, helps you build your second brain, utilizes the power of GenerativeAI to be your personal assistant !
+AiFlow, helps you build your second brain, utilizes the power of GenerativeAI to be your personal assistant !
 
 ## Key Features 🎯
 
 - **Opiniated RAG**: We created a RAG that is opinionated, fast and efficient so you can focus on your product
 - **LLMs**:AiFlow works with any LLM, you can use it with OpenAI, Anthropic, Mistral, Gemma, etc.
-- **Any File**:AiFlow works with any file, you can use it with PDF, TXT, Markdown, etc and even add your own parsers.
+- **Any File**: AiFlow works with any file, you can use it with PDF, TXT, Markdown, etc and even add your own parsers.
 - **Customize your RAG**:AiFlow allows you to customize your RAG, add internet search, add tools, etc.
 - **Integrations with Megaparse**:AiFlow works with [Megaparse](https://github.com/quivrhq/megaparse), so you can ingest your files with Megaparse and use the RAG withAiFlow.
 
@@ -91,7 +91,7 @@ import os
 os.environ["OPENAI_API_KEY"] = "myopenai_apikey"
 
 ```
-Quivr supports APIs from Anthropic, OpenAI, and Mistral. It also supports local models using Ollama.
+AiFlow supports APIs from Anthropic, OpenAI, and Mistral. It also supports local models using Ollama.
 
 1. Create the YAML file ``basic_rag_workflow.yaml`` and copy the following content in it
 ```yaml
